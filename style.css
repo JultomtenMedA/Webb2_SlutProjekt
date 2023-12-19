@@ -1,0 +1,93 @@
+body {
+    background-color: #f4eee0;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 20vh;
+    width: 100%;
+    background-color: #490d0d;
+    color: #fff;
+    font-size: 15px;
+}
+
+/* Style for the button container */
+.container {
+    display: flex;
+    align-items: center;
+    height: 77vh;
+    flex-direction: column;
+}
+
+/* Style for the buttons */
+button {
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+/* Style for the play button */
+#play-button {
+    background-color: #45AC42;
+}
+
+/* Style for the highscore button */
+#highscore-button {
+    background-color: #008CBA;
+}
+
+/* Hover effect for the buttons */
+#play-button:hover {
+    background-color: #4CAF50;
+}
+#highscore-button:hover {
+    background-color: #3b90e1;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 376px) {
+    .header-container {
+        height: 15vh;
+        font-size: 11px;
+    }
+
+    button {
+        width: 150px;
+        height: 40px;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (min-width: 377px) and (max-width: 1024px) {
+    .header-container {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .header-container {
+        font-size: 18px;
+    }
+
+    button {
+        width: 200px;
+        height: 50px;
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+}

@@ -1,0 +1,80 @@
+body {
+    background-color: #f4eee0;
+}
+
+.headder-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 100%;
+    background-color: #490d0d;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+/* Style for the button container */
+.container {
+    display: flex;
+    align-items: center;
+    height: 86vh;
+    flex-direction: column;
+}
+
+/* Style for the buttons */
+button {
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+#nameInput{
+    margin-top: 10px;
+    width: 175px;
+    height: 30px;
+    display: inline-block;
+    padding: 6px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    border-color: #333;
+    border-radius: 5px;
+    transition: background-color 0.5s ease;
+}
+
+#saveButton {
+    margin-top: 10px;
+    padding: 6px 20px;
+    font-size: 18px;
+}
+#highscore-button {
+    background-color: #008CBA;
+    font-size: 20px;
+    margin-bottom: 25px;
+    padding: 10px 20px;
+}
+#return-button {
+    background-color: #f94449;
+    font-size: 20px;
+    margin-bottom: 25px;
+    padding: 10px 20px;
+}
+
+#highscore-button:hover {
+    background-color: #3b90e1;
+}
+#returnButton:hover {
+    background-color: #f01e2c;
+}
+
+#saveButton:hover {
+    background-color: #4CAF50;
+}
