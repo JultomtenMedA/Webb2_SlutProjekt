@@ -1,5 +1,5 @@
 // Selecting the play and highscore buttons from the document
-const playButton = document.querySelector("#play-button");
+const playButton = document.querySelector("#playButton");
 const highscoreButton = document.querySelector("#highscore-button");
 
 // Variables to track game state and data

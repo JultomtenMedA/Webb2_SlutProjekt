@@ -1,6 +1,6 @@
 // Selecting elements from the document
-var highscoreButton = document.querySelector("#highscore-button");
-var returnButton = document.querySelector("#return-button");
+var highscoreButton = document.querySelector("#highscoreButton");
+var returnButton = document.querySelector("#returnButton");
 var saveButton = document.querySelector("#saveButton");
 var name = document.querySelector("#nameInput");
 var score = document.querySelector("#score");

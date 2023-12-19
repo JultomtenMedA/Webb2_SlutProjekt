@@ -2,7 +2,7 @@ body {
     background-color: #f4eee0;
 }
 
-.header-container {
+.headerContainer {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -13,7 +13,6 @@ body {
     font-size: 15px;
 }
 
-/* Style for the button container */
 .container {
     display: flex;
     align-items: center;
@@ -21,7 +20,6 @@ body {
     flex-direction: column;
 }
 
-/* Style for the buttons */
 button {
     width: 200px;
     height: 50px;
@@ -40,27 +38,22 @@ button {
     transition: background-color 0.5s ease;
 }
 
-/* Style for the play button */
-#play-button {
+#playButton {
     background-color: #45AC42;
 }
 
-/* Style for the highscore button */
 #highscore-button {
     background-color: #008CBA;
 }
-
-/* Hover effect for the buttons */
-#play-button:hover {
+#playButton:hover {
     background-color: #4CAF50;
 }
 #highscore-button:hover {
     background-color: #3b90e1;
 }
 
-/* Media queries for responsiveness */
 @media screen and (max-width: 376px) {
-    .header-container {
+    .headerContainer {
         height: 15vh;
         font-size: 11px;
     }
@@ -74,13 +67,13 @@ button {
 }
 
 @media only screen and (min-width: 377px) and (max-width: 1024px) {
-    .header-container {
+    .headerContainer {
         font-size: 15px;
     }
 }
 
 @media only screen and (min-width: 1025px) {
-    .header-container {
+    .headerContainer {
         font-size: 18px;
     }
 

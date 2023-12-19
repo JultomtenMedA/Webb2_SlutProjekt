@@ -2,7 +2,7 @@ body {
     background-color: #f4eee0;
 }
 
-.header-container {
+.headerContainer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,7 +13,6 @@ body {
     margin-bottom: 10px;
 }
 
-/* Style for the button container */
 .container {
     display: flex;
     align-items: center;
@@ -21,7 +20,6 @@ body {
     flex-direction: column;
 }
 
-/* Style for the buttons */
 button, ul {
     display: inline-block;
     font-size: 20px;
