@@ -2,9 +2,9 @@
 var returnButton = document.querySelector("#returnButton");
 var highscoreList = document.querySelector("#highscoreList");
 
-// Event listener for the return button to navigate back to the index page
+// Event listener for the return button to navigate back to the start page
 returnButton.addEventListener("click", () => {
-    location.href = "index.html";
+    location.href = "startsida.html";
 });
 
 // Retrieving highscores from local storage

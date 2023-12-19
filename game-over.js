@@ -12,7 +12,7 @@ highscoreButton.addEventListener("click", () => {
 
 // Event listener to navigate back to the start page
 returnButton.addEventListener("click", () => {
-    location.href = "index.html";
+    location.href = "startsida.html";
 });
 
 // Retrieving accuracy, score, and highscores from local storage
